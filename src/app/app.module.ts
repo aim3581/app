@@ -9,13 +9,17 @@ import { BookServiceService } from './book-service.service';
 import { BookListComponent } from './book-list/book-list.component';
 import { AddBookComponent } from './add-book/add-book.component';
 import { TestAddComponent } from './test-add/test-add.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductAddComponent } from './product-add/product-add.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BookListComponent,
     AddBookComponent,
-    TestAddComponent
+    TestAddComponent,
+    ProductListComponent,
+    ProductAddComponent
     ],
   imports: [
     BrowserModule,
